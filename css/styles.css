@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+/* NOTE: inicio media 767*/
+@media (max-width: 767px) { ul.main-menu {
+  align-items: center;
+  justify-content: center;
+}
+}
+
+@media (max-width: 767px) { .main-menu li {
+  text-align: center;
+  margin-right: auto;
+}
+}
+
+@media (max-width: 767px) { .main-menu li a {
+  font-size: 1.1rem;
+}
+}
+
+@media (max-width: 767px) { .text-logo { 
+  flex-direction: column;}
+}
+
+@media (max-width: 767px) { .text-logo h2.text-marca { 
+  text-align: center;
+  align-items: center;
+  text-align: center; }
+}
+
+@media (max-width: 767px) { .text-logo p.text-marca-s { 
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 0;
+  align-items: center;
+  text-align: center; }
+}
+
+@media (max-width: 767px) { .text-logo span.text-marca-s { 
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 0;
+  align-items: center;
+  text-align: center; }
+}
+
+@media (max-width: 767px) { .carousel-item h5 { 
+  font-size: 1.1rem;}
+}
+
+@media (max-width: 767px) { .carousel-item p { 
+  display: none;}
+}
+
+/* NOTE: media 767 hasta carousel */
+
+@media (max-width: 767px) { .steps { 
+  flex-direction: column;}
+}
+
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 2rem 1rem 2rem;
+}
+  
+  .contenedor-head {
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .contenedor-marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: stretch;
+}
+
+  .contenedor-marca img {
+    min-height: 100px;
+    max-height: 128px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+  }
+
+.menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+  .main-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .main-menu li {
+    font-size: 1.5rem;
+    font-weight: 600;
+    list-style: none;
+    display: inline;
+    margin-right: 1rem;
+  }
+
+  .main-menu a.sinlink {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .main-menu li a {
+    color: red;
+    text-decoration: none;
+  }
+  .main-menu li a:hover {
+    text-decoration: underline;
+    color: #0075FF;
+  }
+  .get-started {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .btn-main-s {
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #0075FF;
+    color: white;
+    border: solid 1px #0075FF;
+  }
+  .btn-main-s:hover {
+    background-color: white;
+    color: #0075FF;
+  }
+  
+  .btn-sec-s {
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    color: black;
+    background-color: transparent;
+    border: none;
+  }
+  .btn-sec-s:hover {
+    color: #888;
+    border: solid 1px #888;
+  }
+
+  .get-started .iconINI {
+    color: #0075FF;
+    font-size: 1.25rem;
+  }
+
+  .btn-sec-i {
+    padding: 0.2rem 1rem;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    border: none;
+  }
+  .btn-sec-i .iconINI:hover {
+    color: #888;
+  }
+
+  section.text-logo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col-12.text-logo {
+    margin: 0%auto;
+    width: 96vw;
+    filter: drop-shadow(4px 4px 4px #888)
+  }
+
+  .text-logo {
+    background-image: url(../assets/img/BGsephora.png);
+    border: none;
+    border-radius: 10px;
+    margin: 0 2rem 0 2rem;
+    padding: 0.25rem 0rem 0.25rem 0rem; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  h2.text-marca {
+    align-items: flex-start;
+    padding: 0.5rem 0 0.5rem 0;
+    font-family: 'Henny Penny', cursive;
+    font-size: 1.75rem;
+    margin: auto;
+    font-weight: 600;
+    text-align: end;
+    color: white;
+  }
+
+  p.text-marca-s {
+    font-family: 'Henny Penny', cursive;
+    margin: auto;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+  }
+
+  span.text-marca-s {
+    margin: auto;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: start;
+    color: white;
+  }
+
+  i.iconPH {
+    padding-right: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
+  /* NOTE: botones MODO */
+
+  .contenedorbotonnoche { 
+    display: flex; 
+    margin: 1rem 0 1rem 0; 
+    justify-content: center;}
+
+/* NOTE: arranca carousel */
+
+  .carousel {
+    border: none;
+    margin: 1.5rem 1.5rem;
+  }
+
+  .carousel-item h5 img {
+    width: 3rem;
+  }
+
+  .carousel-inner h5 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .carousel-inner p {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+      width: 5rem;
+      height: 5rem;
+  }
+
+/* NOTE: arranca sec-cliente */  
+
+.sec-cliente .intro {
+  width: 90vw;
+  margin: auto;
+  padding: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+
+.sec-cliente .intro h3 {
+  color: #0075FF;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0%;
+}
+
+.sec-cliente .intro p {
+  color: #0075FF;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.sec-cliente .steps {
+  padding: 0 7rem 3rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-cliente .steps .step-separator {
+  flex: 1;
+  border-top: 2px solid #ddd;
+  margin: 0 1rem;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  color: #0075FF;
+  font-size: 7rem;
+  padding: 0 0 1rem 0;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.icon-desc .icon:hover {
+  color: #ff2600;
+  transition-property: all;
+      transition-duration: 0.25s;
+      transition-timing-function: ease-in-out; 
+      transition-delay: 0.1s;
+}
+
+/* NOTE: arranca sec-cards */
+
+section.ideasyovillos {
+  background-image: url(../assets/img/BGsephora.png);
+  padding: 2rem 0 2rem 0;
+  margin: 0 1rem 0 1rem;
+}
+
+.contenedor-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contenedor-ideas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-ppal, .card-vid { 
+  filter: drop-shadow(10px 10px 10px black) 
+}
+
+.contenedor-video {
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* NOTE: arranca direccion */
+
+.contenedor-mapa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem 0 2rem 0;
+}
+
+/* NOTE: arranca FOOTER */
+
+footer.container {
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+}
+
+.contenedor-footer { 
+  width: 96vw; 
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedorfoot { 
+    background-color: #B2BABB;
+    border: none;
+    border-radius: 10px;
+    width: 90vw; 
+    display: flex; 
+    justify-content: center; 
+    margin: 2rem 2rem 0.5rem 2rem;
+    padding: 0%;
+}
+
+.contenedorfoot p { 
+  padding: 0.25rem;
+  margin: 0%;
+}
+
+#contenedor-redes { 
+  width: 200px; 
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-end; 
+  position: fixed;
+  top: 88vh; 
+  right: 2vw; 
+  overflow: hidden; 
+}
+
+#contenedor-redes img { 
+  width: 50px; 
+  filter: drop-shadow(2px 4px 3px gray);
+  transition-property: all; 
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out; 
+  transition-delay: 0.1s;
+}
+
+#contenedor-redes img:hover { width: 60px; }
+
+  #desarrollador { 
+    color: white; 
+    font-family: 'arial';
+    font-size: 1.4rem; 
+    text-align: center; 
+    text-decoration-color: #6C3483; 
+    text-shadow: black;
+}
+
+    #hcd:hover { 
+      color: white; 
+      background-color: #6C3483;
+      font-size: 1.4rem; 
+      transition-property: all;
+      transition-duration: 0.25s;
+      transition-timing-function: ease-in-out; 
+      transition-delay: 0s;
+}
+
+.botonJS {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  margin-left: 1.65rem;
+  filter: opacity(0.7);
+}
+
+button.botonJS:hover { 
+  filter: opacity(2);
+  background-color: #6C3483;
+  border: solid 1px #6C3483;
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out; 
+  transition-delay: 0s;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+  <meta name="description" content="Lanera, Merceria, Hilados">
+  <meta name="keywords" content="Lana, Insumos, Textiles, Hilos">
+  <meta name="author" content="Hernan Duran">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideas y Ovillos</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="icon" type="image/svg+xml" href="../assets/svg/favicon_ovilloTR.svg"/>
+</head>
+<body>
+  <!-- alerta BIENVENIDA -->
+  <script> alert ("Gracias por visitar Ideas y Ovillos")
+</script>
+<header>
+    <div class="container-fluid contenedor-head">
+        <div class="col-12 col-md-3 contenedor-marca">            
+                <img src="../assets/img/imagen_perf FB_2020_0000.jpg" alt="Logo IyO">                        
+        </div>
+        <nav class="col-12 col-md-9 nav">        
+            <div class="row menu">
+                <ul class="main-menu">
+                    <li><a href="../html/index.html">Inicio</a></li>
+                    <li><div class="dropdown">
+                      <a class="dropdown-toggle sinlink" type="text" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><a class="dropdown-item" type="text">Lanas</a></li>
+                        <li><a class="dropdown-item" type="tex">Hilados</a></li>
+                        <li><a class="dropdown-item" type="text">Merceria</a></li>
+                      </ul></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Recursos</a></li>
+                    <li><a href="../html/contacto.html" target="_blank">Contacto</a></li>            
+                </ul>
+        </div>
+        <div class="get-started">
+            <button class="btn-sec-s" id="btnsecsjs">Ingreso</button>            
+            <button class="btn-main-s">Registrate</button>
+            <button class="btn-sec-i"><i class="bi bi-person-plus-fill iconINI"></i></button>            
+        </div>    
+</nav>
+</header>
+<section class="col-12 text-logo">
+  <div class="col-12 text-logo">
+    <h2 class="col-12 col-md-3 text-marca">Ideas y Ovillos</h2>
+    <p class="col-12 col-md-6 text-marca-s">----- Productos de Mercería, Lanas e Hilados ---</p>
+    <span class="col-12 col-md-3 text-marca-s"><i class="bi bi-telephone-forward-fill iconPH"></i>221 556-4160</span>
+  </div>
+  </section>
+  <!-- boton modo noche-->
+  <div class="contenedorbotonnoche">
+    <button onclick="fondooscuro()" class="btn btn-dark" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">MODO NOCTURNO</button>
+    <button onclick="fondoclaro()" class="btn btn-light" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">MODO STANDARD</button>
+  </div>
+  <!-- carrousel -->
+<section class="col-12 carouselPpal">
+  <div id="carouselPpal" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselPpal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselPpal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselPpal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselPpal" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../assets/img/www_local_SL01.png" class="d-block w-100" alt="imglocal">
+        <div class="carousel-caption">
+          <h5>Conocé nuestro Local</h5>
+          <p>Contamos con atención personalizada de acuerdo a todas tus necesidades.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../assets/img/www_local_SL02.png" class="d-block w-100" alt="imglanas">
+        <div class="carousel-caption">
+          <h5>Todo en LANAS <img src="../assets/svg/favicon_ovilloTR.svg" alt="ovillo"></h5>
+  <!-- VER favicon -->          
+          <p>Los mejores productos en lanas, cashmilon, matizadas...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/img/www_local_SL03.png" class="d-block w-100" alt="hilo">
+        <div class="carousel-caption">
+          <h5>Los mejores HILADOS <img src="../assets/svg/favicon_hiloTR.svg" alt="hilo"></h5>
+          <p>Calidad en Hilos de Algodón, Macramé, Peruano.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/img/www_local_SL04.png" class="d-block w-100" alt="merceria">
+        <div class="carousel-caption">
+          <h5>Insumos de MERCERIA <img src="../assets/svg/favicon_ideaTR.svg" alt="hilo"></h5>
+          <p>Todo lo que precisás con las mejores calidades.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPpal" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselPpal" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+  <!-- cliente -->
+<section class="sec-cliente">
+    <div class="intro">
+        <h3>Armá tu cuenta en unos minutos</h3>
+        <p>Podés controlar los pedidos y elegir los métodos de pago según convenga.</p>
+    </div>
+    <div class="steps">
+        <div class="icon-desc">
+            <i class="bi bi-person-plus-fill icon"></i>
+            <h4 class="title" id="titulocliente">
+                Creá tu cuenta
+            </h4>
+        </div>
+        <div class="step-separator"></div>
+        <div class="icon-desc">
+          <i class="bi bi-cart4 icon"></i>
+            <h4 class="title" id="titulocliente1">
+                Armá tu pedido
+            </h4>
+        </div>
+        <div class="step-separator"></div>
+        <div class="icon-desc">
+            <i class="bi bi-coin icon"></i>
+            <h4 class="title" id="titulocliente2">
+                Pagás, lo recibís
+            </h4>
+        </div>            
+    </div>        
+</section>
+  <!-- ideas -->
+  <section class="ideasyovillos">
+    <div class="container-fluid col-12 contenedor-cards">
+        <div class="col-12 col-md-6 contenedor-ideas">
+    <div class="card text-bg-danger mb-3 card-ppal">
+      <img src="../assets/img/imagenCARD01.png" class="card-img-top" alt="tejido">
+      <div class="card-body">
+        <h5 class="card-title">Cursos y Recursos</h5>
+        <p class="card-text">Podés encontrar todos los recursos en videos para crear tus propios proyectos. Presentá tus técnicas y creaciones. Sumate a los Cursos que se están dictando.</p>
+        <p class="card-text"><small class="text-muted">@ideasyovillos - Encontranos en Instagram y Facebook</small></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 contenedor-video">
+    <div class="card text-bg-primary mb-3 video card-vid">
+      <iframe class="card-img-top" width="490px" height="315px" src="https://www.youtube.com/embed/3GVTRiLtL_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="card-body">
+        <p class="card-text">Podés encontrar todos los recursos en videos para crear tus propios proyectos.</p>
+    </div>
+  </div>
+    <div class="card text-bg-warning mb-3 video card-vid">
+      <iframe class="card-img-top" width="490px" height="315px" src="https://www.youtube.com/embed/dL1Bq4J8BDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+        <p class="card-text">Podés encontrar todos los recursos en videos para crear tus propios proyectos.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- direccion -->
+  <section class="direccion">
+    <div class="container-fluid col-12 contenedor-mapa">
+    <div class="card mb-3 mapa">
+      <div class="row g-0">
+        <div class="col-12 col-md-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.98648403046735!2d-57.922521636833885!3d-34.90608435245267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7ec9bb4e5bd%3A0xea885f56a4b2e560!2sIdeas%20y%20Ovillos!5e0!3m2!1ses-419!2sar!4v1657309552961!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid rounded-start" alt="mapa"></iframe>
+        </div>
+        <div class="col-12 col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Conocé nuestro Local Comercial</h5>
+            <p class="card-text">Estamos en Berisso calle 5 (62 de La Plata) #497 entre 124 y 125. A sólo 5min de los centros comerciales de Berisso y La Plata. Cerca de la UTN, Facultad de Medicina y el Paseo del Bosque.</p>
+            <p class="card-text"><small class="text-muted">@ideasyovillos - Encontranos en Instagram y Facebook</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="col-12 container">
+    <div class="contenedor-footer">
+  <div id="desarrollador" class="contenedorfoot">
+    <p> COPYRIGHT Ideas y Ovillos - 2022 / Desarrollador
+      <a id="hcd" href="https://github.com/hernancduran/ProyectoEDLP_TP3" target="_blank">
+        Hernán C. Durán </a> </p>
+      </div>
+      <div id="contenedor-redes">
+        <a href="https://wa.me/15492215564160/?text=Hola%IdeasyOvillos" target="_blank"
+        title="via Whatsapp">
+        <img src="../assets/img/logo_wsp.png" alt="Logo Whatsapp">
+      </a>
+      <a href="https://www.instagram.com/ideasyovillos/" target="_blank"
+      title="seguinos Instagram">
+      <img src="../assets/img/logo_instagram.png" alt="Logo Instagram">
+    </a>
+  </div>
+</div>
+</footer>
+<!-- boton DESARROLLADOR-->
+<div class="d-grid gap-2 col-6 botonJS">
+  <button onclick="contactame()" class="btn btn-primary botonJS" type="button">Contactá al Desarrollador</button>
+</div>
+<br>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- JavaScript PROPIO -->
+<script src="../js/code-guide.js"></script>
+</html>
