@@ -39,7 +39,7 @@
                 </ul>
         </div>
         <div class="get-started">
-            <button class="btn-sec-s">Ingreso</button>            
+            <button class="btn-sec-s" id="btnsecsjs1">Ingreso</button>            
             <button class="btn-main-s">Registrate</button>
             <button class="btn-sec-i"><i class="bi bi-person-plus-fill iconINI"></i></button>            
         </div>    
@@ -54,15 +54,15 @@
   </section>
   <!-- boton modo noche-->
   <div class="contenedorbotonnoche">
-    <button onclick="fondooscuro()" class="btn btn-dark" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">MODO NOCTURNO</button>
-    <button onclick="fondoclaro()" class="btn btn-light" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">MODO STANDARD</button>
+    <button onclick="fondooscuro1()" class="btn btn-dark" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">MODO NOCTURNO</button>
+    <button onclick="fondoclaro1()" class="btn btn-light" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">MODO STANDARD</button>
   </div>
 <!-- -FORMULARIO -->
 <section class="container">
 <div class="container seccion-2">
     <form class="my-4">
       <div class="mb-3">
-        <label for="InputNombre" class="form-label">
+        <label for="InputNombre" class="form-label" id="titulolabel0">
           Nombre
         </label>
         <input type="text" class="form-control" id="InputNombre" 
@@ -72,19 +72,19 @@
         </div>
       </div>
       <div class="mb-3">
-        <label for="InputMail" class="form-label">
+        <label for="InputMail" class="form-label" id="titulolabel1">
           E-Mail
         </label>
         <input type="text" class="form-control" id="InputMail">
       </div>
       <div class="mb-3">
-        <label for="InputTelefono" class="form-label">
+        <label for="InputTelefono" class="form-label" id="titulolabel2">
           Teléfono
         </label>
         <input type="number" class="form-control" id="InputTelefono">
       </div>
       <div class="mb-3">
-        <label for="AreadeTexto" class="form-label">
+        <label for="AreadeTexto" class="form-label" id="titulolabel3">
           Mensaje
         </label>
         <textarea class="form-control" id="AreadeTexto" rows="3">            
