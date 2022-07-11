@@ -18,6 +18,11 @@
 }
 }
 
+@media (max-width: 767px) { .main-menu li a.sinlink {
+  font-size: 1.1rem;
+}
+}
+
 @media (max-width: 767px) { .text-logo { 
   flex-direction: column;}
 }
